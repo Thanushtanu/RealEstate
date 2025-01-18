@@ -940,7 +940,8 @@ section,
 /* Responsive styles for mobile devices */
 @media (max-width: 768px) {
   .hero {
-    padding: 0;
+
+    padding-top: 30px;
   }
 
   .hero .carousel {
@@ -993,9 +994,10 @@ section,
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .hero .carousel {
-    min-height: 80vh; /* Further reduce height for very small screens */
+    min-height: 80vh;
+    padding-top: 40px; /* Further reduce height for very small screens */
   }
 
   .hero img {
