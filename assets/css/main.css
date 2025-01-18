@@ -997,7 +997,8 @@ section,
 @media (max-width: 500px) {
   .hero .carousel {
     min-height: 80vh;
-    padding-top: 40px; /* Further reduce height for very small screens */
+    padding-top: 180px;
+    margin-top: 40px; /* Further reduce height for very small screens */
   }
 
   .hero img {
