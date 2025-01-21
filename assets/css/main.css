@@ -1047,6 +1047,23 @@ section,
   .hero .carousel-control-prev-icon {
     font-size: 20px; /* Smaller navigation icons */
   }
+
+ 
+}
+
+@media(max-width: 1200px){
+  .button-row {
+    display: flex;
+    width: fit-content;
+    
+    justify-content: space-between;
+    
+  }
+  
+  .spa{
+    margin: 5px;
+  }
+ 
 }
 
 
