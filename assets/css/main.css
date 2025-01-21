@@ -1051,21 +1051,28 @@ section,
  
 }
 
-@media(max-width: 1200px){
+@media(max-width: 500px){
   .button-row {
-    display: flex;
-    width: fit-content;
-    
-    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     
   }
   
   .spa{
-    margin: 5px;
+    margin: 10px;
   }
  
 }
 
+.button-row {
+  display: flex; /* Flex layout */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  justify-content: center; /* Center align buttons horizontally */
+  gap: 10px; /* Space between buttons */
+}
 
 
 .hero .btn-get-started {
